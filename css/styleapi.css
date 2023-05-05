@@ -1,0 +1,29 @@
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Franklin Gothic Medium';
+    font-size: 300%;
+}
+body{
+    background-color: violet;
+}
+.gridContenedor {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    justify-content: center;
+
+}
+
+.personajes > div {
+    display: flex;
+    flex-direction: column;
+    margin: 10% 10% 10% 10%;
+    border: solid black 7px;
+    padding: 10% 10% 10% 10%;
+    background-color: turquoise;
+}
+
+img {
+    width: 85%;
+}
