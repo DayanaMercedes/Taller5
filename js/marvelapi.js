@@ -31,21 +31,21 @@ function MarvelAPI() {
             
             var enlaceSeries = document.createElement("a");
             enlaceSeries.innerText = "Ver Serie";
-            enlaceSeries.href="#"
+            enlaceSeries.href="url"
 
             var enlaceComics = document.createElement("a");
             enlaceComics.innerText = "Ver Comic";
-            enlaceComics.href="#"
+            enlaceComics.href="url"
 
             var enlaceEventos = document.createElement("a");
             enlaceEventos.innerText = "Ver Evento";
-            enlaceEventos.href="#"
+            enlaceEventos.href="url"
 
 
             var enlaceStories = document.createElement("a");
 
             enlaceStories.innerText = "Ver Comic";
-            enlaceStories.href="#"
+            enlaceStories.href="url"
 
             grid.appendChild(div);
             div.appendChild(imagen);
